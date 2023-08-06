@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Library</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* fonts imported from Google */
+    </style>
+    <link rel="stylesheet" href="style.css"> <!-- cascading style sheet hereeeee -->
+</head>
+
+<body>
+
+    <header>My Media Library</header>
+
+    <menu>
+        <ul>
+        <li><a href="/">Home</a>
+        <li><a href="https://imdb.com/">Movies</li>
+        <li><a href="tv/index.html">TV</a></li>
+        <li><a href="music/index.html">Music</a></li>
+        </ul>
+    </menu>
+
+        <main>
+            <div class="main-text"><b>Recently Watched</b></div>
+            <ul class="list">
+                <div class="tv-list">
+                    <li>
+                        <a href="TV/the.flash.html">The Flash</a>
+                        <img src="tv/Images/the.flash.jpg" alt="The Flash" />
+                    </li>
+                    <li>
+                        <a href="TV/one.piece.html">One Piece</a>
+                        <img src="tv/Images/one.piece.jpg" alt="One Piece" />
+                    </li>
+                    <li>
+                        <a href="TV/warrior.2019.html">Warrior</a>
+                        <img src="tv/Images/warrior.2019.jpg" alt="Warrior" />
+                    </li>
+                </div>
+            </ul>
+        </main>
+
+        <div class="my-favorite"><h4>My favorite series!</h4></div>
+
+        <table id="style_table"> <!-- Table 1-->
+            <thead>
+                <tr> <!-- table row -->
+                <th>No</th> <!-- table header -->
+                <th>Title</th>
+                <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>One Piece</td>
+                    <td>Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named "One Piece".</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Warrior</td>
+                    <td>During the Tong Wars in the late 1800s, Ah Sahm, a martial arts prodigy from China, immigrates to San Francisco and becomes a hatchet man for the most powerful tong in Chinatown.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>The Flash</td>
+                    <td>CSI investigator Barry Allen awakens from a coma, nine months after he was hit by lightning, and discovers he has superhuman speed.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <form id="contact_form">
+
+        <h2>Contact Me!</h2>
+
+        <div>
+            <label form="name">Name:</label>
+            <input name="name" type="text" placeholder="Enter name"/>
+        </div>
+        <div>
+            <label form="email">Email:</label>
+            <input name="email" type="email" placeholder="email@domain.com"/>
+        </div>
+        <div>
+            <label form="phone">Mobile:</label>
+            <input name="phone" type="tel" placeholder="1234567890"/>
+        </div>
+
+        <div>
+            <label for="gender">Gender</label>
+            <input name="gender" type="radio">Male
+            <input name="gender" type="radio">Female
+        </div>
+
+        <div>
+            <label for="age">Age Range:</label>
+            <select name="age">
+                <option>Under 18</option>
+                <option>18-26</option>
+                <option>27-40</option>
+                <option>41-60</option>
+                <option>61+</option>
+            </select>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>

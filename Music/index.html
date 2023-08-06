@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist: Music</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* fonts imported from Google */
+    </style>
+    <link rel="stylesheet" href="music_style.css"> <!-- cascading style sheet hereeeee -->
+</head>
+
+<body>
+
+    <header><h1>My favorite music artists!</h1></header>
+
+    <menu>
+    <ul> 
+        <li><a href="../index.html">Home</a></li> <!-- can use realtive path e.g ../ or absolute path / -->
+        <li><a href="https://imdb.com/">Movies</li>
+        <li><a href="tv/index.html">TV</a></li>
+        <li><a href="./index.html">Music</a></li>
+    </ul>
+    <div id="platform"><h2>Platforms I listen to music on</h2></div>
+    <ul> 
+        <li><a href="https://open.spotify.com/">Spotify</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+    </ul>
+    </menu>
+
+    <main>
+    <div class="main-text"><h2>My top 3 artists</h2></div>
+        <ul class="list">
+        <div class="tv-list">
+            <li>
+                The Script
+                <img src="./Images/the.script.jpg" alt="The Script" />
+            </li>
+            <li>
+                Gentle Bones
+                <img src="./Images/gentle.bones.jpg" alt="Gentle Bones" />
+            </li>
+            <li>
+                Lauv
+                <img src="./Images/lauv.jpg" alt="Lauv" />
+            </li>
+        </div>
+        </ul>
+    </main>
+
+    <div class="seasons"><h3>Albums</h3></div>
+
+    <table id="style_table"> <!-- Table 1 -->
+        <thead>
+            <tr> <!-- table row -->
+            <th>Year</th> <!-- table header -->
+            <th>Title</th>
+            <th>Track Listing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2008</td>
+                <td><a href="https://en.wikipedia.org/wiki/The_Script_(album)">The Script</a></td>
+                <td>10</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr> <!-- table row -->
+            <th>Year</th> <!-- table header -->
+            <th>Title</th>
+            <th>Track Listing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2021</td>
+                <td><a href="https://en.wikipedia.org/wiki/Gentle_Bones_discography">Gentle Bones</a></td>
+                <td>12</td>
+            </tr>
+        </tbody>
+        <thead>
+            <tr> <!-- table row -->
+            <th>No</th> <!-- table header -->
+            <th>Title</th>
+            <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020</td>
+                <td><a href="https://en.wikipedia.org/wiki/How_I%27m_Feeling">How I'm Feeling</a></td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="contact_form">
+
+        <h3>Contact me!</h3>
+
+        <div>
+            <label form="name">Name:</label>
+            <input name="name" type="text" placeholder="Enter name"/>
+        </div>
+        <div>
+            <label form="email">Email:</label>
+            <input name="email" type="email" placeholder="email@domain.com"/>
+        </div>
+        <div>
+            <label form="phone">Mobile:</label>
+            <input name="phone" type="tel" placeholder="1234567890"/>
+        </div>
+        
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
